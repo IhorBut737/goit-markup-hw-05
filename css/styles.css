@@ -624,7 +624,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: none; */
+  border: none;
   padding: 0;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -684,13 +684,11 @@ img {
 .modal-input:hover,
 .modal-textarea:hover {
   border: 1.25px solid #2e2f42;
-  border: none;
 }
 
 .modal-input:focus,
 .modal-textarea:focus {
   border-color: #4d5ae5;
-  border: none;
 }
 
 .modal-input:focus + .modal-icon {
