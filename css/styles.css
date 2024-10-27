@@ -664,7 +664,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .input-wrapper {
   position: relative;
@@ -684,11 +684,13 @@ img {
 .modal-input:hover,
 .modal-textarea:hover {
   border: 1.25px solid #2e2f42;
+  border: none;
 }
 
 .modal-input:focus,
 .modal-textarea:focus {
   border-color: #4d5ae5;
+  border: none;
 }
 
 .modal-input:focus + .modal-icon {
@@ -726,14 +728,17 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
+
 .modal-check-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
+  /* display: flex;
+  align-items: center; */
 }
 
 .modal-text-color {
@@ -748,7 +753,7 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
